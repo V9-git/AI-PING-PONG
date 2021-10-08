@@ -1,0 +1,47 @@
+body
+{
+
+}
+.heading
+{
+    width: 100%;
+    text-align: left;
+}
+.heading h3
+{
+    display: inline;
+}
+.heading button
+{
+    float: right;
+    border: 1px solid white;
+}
+.copy_right_footer
+{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 3;
+    text-align: center;
+}
+.start,#satus
+{
+    font-size: 26px;
+}
+h4
+{
+    background-color: white;
+    line-height: 2;
+    margin:0px;
+}
+.modal-dialog
+{
+    width: 90%;
+}
+.istructions_image
+{
+    display: inline-block;
+    width: 75%;
+}
