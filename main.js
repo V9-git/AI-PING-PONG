@@ -23,6 +23,14 @@ var ball = {
 
 function setup(){
   var canvas =  createCanvas(700,600);
+  video = createCapture(VIDEO);
+  video.size(600,300);
+
+  poseNet = ml5.posenet(video, modelLoaded);
+
+	canvas.parent('canvas');
+
+	instializeInSetup(mario);
 }
 
 
